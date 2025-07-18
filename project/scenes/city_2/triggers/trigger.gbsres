@@ -1,0 +1,180 @@
+{
+  "_resourceType": "trigger",
+  "id": "863c3847-f574-40dd-8c82-f9d0dcc2233e",
+  "name": "",
+  "prefabId": "",
+  "x": 32,
+  "y": 116,
+  "symbol": "trigger_29",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 6,
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "0",
+        "flag": 1,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+            "args": {
+              "actorId": "46933c77-50da-4417-addd-c17e7e32c28b"
+            },
+            "id": "820b8869-aa07-42c2-918e-6fcdffe106b3"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "46933c77-50da-4417-addd-c17e7e32c28b"
+            },
+            "id": "b1b6c826-877c-497c-9556-2e806f48d0e8"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "46933c77-50da-4417-addd-c17e7e32c28b",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+            },
+            "id": "382107e3-86f8-492e-bffa-a9fb47627e3e"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "46933c77-50da-4417-addd-c17e7e32c28b",
+              "x": {
+                "type": "number",
+                "value": 36
+              },
+              "y": {
+                "type": "number",
+                "value": 121
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "b638fc32-a0ab-440b-a920-19f4cef4949c"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Hey! I haven't\nseen you around ",
+                "here! Let me show\nyou how to naviga-",
+                "te platformer\ntowns.",
+                "green houses you\npress up to enter",
+                "white houses you\nenter upon",
+                "touching the door.",
+                "That's all you\nneed to know!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c82d93d3-6b6d-4e41-8c19-581d15eb6269"
+          },
+          {
+            "command": "EVENT_CAMERA_MOVE_TO",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 46
+              },
+              "y": {
+                "type": "number",
+                "value": 105
+              },
+              "speed": 2
+            },
+            "id": "cbcc4a01-e555-43a9-a539-ae0abcde8044"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "46933c77-50da-4417-addd-c17e7e32c28b",
+              "x": {
+                "type": "number",
+                "value": 64
+              },
+              "y": {
+                "type": "number",
+                "value": 121
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "556c6248-6fe7-428d-aba3-aaca1308d7b9"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "46933c77-50da-4417-addd-c17e7e32c28b"
+            },
+            "id": "d6d161a7-8b16-44ae-bb92-2e62f8c34068"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "46933c77-50da-4417-addd-c17e7e32c28b"
+            },
+            "id": "f6741cb1-8ad8-4e9e-af4f-238f77d319df"
+          },
+          {
+            "command": "EVENT_CAMERA_LOCK",
+            "args": {
+              "speed": 2,
+              "axis": [
+                "x",
+                "y"
+              ]
+            },
+            "id": "e46ddc75-e531-4705-aa38-743b5d3cf4c7"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "0",
+              "flag1": false,
+              "flag2": true,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "5dffe6db-0f9e-4d9a-ae19-59e4e53aa2a1"
+          }
+        ]
+      },
+      "id": "c778b338-6e07-4837-8ab6-a6a06ac08ea2"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

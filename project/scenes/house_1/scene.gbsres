@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "b2adf580-ff59-40f2-a86c-5212fb8bc8fc",
+  "_index": 4,
+  "name": "house 1",
+  "backgroundId": "cd253386-f901-4ada-9b82-1df22bcd1092",
+  "tilesetId": "",
+  "width": 20,
+  "height": 20,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f12+002+0f12+002+0f2+00c+0f2+004+0f2+00c+0f2+004+0fc+002+0f2+004+0fc+002+0f2+006+0f2+006+0f2+002+0f2+006+0f2+006+0f2+002+0f2+006+0f2+002+0f6+002+0f2+006+0f2+002+0f6+002+0f2+006+0f2+002+0f2+006+0f2+006+0f2+002+0f2+006+0f2+006+0f2+006+0f6+006+0f2+006+0f6+006+0f6+002+0f2+00a+0f6+002+0f2+00e+0f2+002+0f2+00e+0f2+002+0f2+00e+0f2+002+0f2+00e+0f2+002+0f2+008+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 616,
+  "y": 664,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

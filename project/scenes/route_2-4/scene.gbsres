@@ -1,0 +1,69 @@
+{
+  "_resourceType": "scene",
+  "id": "d2cb119f-c39a-41a9-acc1-e8c8f28b6d58",
+  "_index": 9,
+  "name": "route 2-4",
+  "backgroundId": "a8712e5b-a5f1-4bb2-b718-d89cf7b849e7",
+  "tilesetId": "",
+  "width": 128,
+  "height": 20,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00800+0f74+00c+0f74+00c+0f2+0033+0f3f+00c+0f2+0035+0f3d+00c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 2896.5400255778472,
+  "y": 318.5000319846939,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "17fb317c-4f74-4e78-a8de-58d90a1cb843"
+    },
+    {
+      "command": "EVENT_SAVE_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__scriptTabs": "save"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Game Saved!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "2c820a5a-cf90-4ee0-a392-42353ff68f5a"
+          }
+        ],
+        "load": []
+      },
+      "id": "2fac300a-6bc4-4108-a4d0-98b33690d539"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

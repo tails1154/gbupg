@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ba5bf883-b441-4d55-954b-b4e7b721f465",
+  "name": "house1room2",
+  "symbol": "bg_house1room2",
+  "width": 20,
+  "height": 20,
+  "imageWidth": 160,
+  "imageHeight": 160,
+  "filename": "house1room2.png",
+  "tileColors": "062a+0110+064+0110+064+0110+064+0110+064+016+002+018+064+016+002+018+064+0110+064+0110+064+0110+064+0110+064+0110+064+0110+064+0110+064+0110+064+0110+064+0110+06a+002+0612+002+06a+",
+  "autoColor": false
+}

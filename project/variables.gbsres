@@ -1,0 +1,24 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "city1 flags",
+      "symbol": "var_city1_flags",
+      "flags": {
+        "flag1": "FinishedHouse1",
+        "flag2": "PlatTownHouseT"
+      }
+    },
+    {
+      "id": "1",
+      "name": "menuChoice",
+      "symbol": "var_menuchoice"
+    },
+    {
+      "id": "4d34a5b4-c7ab-4875-b36d-fb5d7a0c9742__L0",
+      "name": "selected",
+      "symbol": "var_selected"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "a5af4cb3-d458-4834-aa50-fb4b1ac6f3d4",
+  "name": "Gun.vgm",
+  "symbol": "sound_gun_vgm",
+  "filename": "Gun.vgm",
+  "type": "vgm"
+}

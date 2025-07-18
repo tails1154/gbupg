@@ -1,0 +1,61 @@
+{
+  "_resourceType": "scene",
+  "id": "a8333f47-f661-4ea3-85d7-e70194f95ef7",
+  "_index": 1,
+  "name": "title",
+  "backgroundId": "c0b236fc-1ea5-4edf-9833-9698a065203a",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 568,
+  "y": 368,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "7af560a3-135b-4467-a4c0-d240b9a41bde"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": " Untitled \nPlatformer\n   Game   ",
+        "x": 5,
+        "y": 2,
+        "location": "background"
+      },
+      "id": "c6f9422c-95c2-4138-85fa-82dcde3b7003"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "New Game",
+        "x": 7,
+        "y": 8,
+        "location": "background"
+      },
+      "id": "e6085a68-c8ac-4fd6-95d1-9516b0b71d59"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Continue",
+        "x": 5,
+        "y": 14,
+        "location": "background"
+      },
+      "id": "dc9ce31a-39d9-4ef0-962e-622412279881"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+}

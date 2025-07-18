@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "108c9a9b-567e-4923-81a3-df65137aa701",
+  "name": "Powerup.vgm",
+  "symbol": "sound_powerup_vgm",
+  "filename": "Powerup.vgm",
+  "type": "vgm"
+}

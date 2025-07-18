@@ -1,0 +1,58 @@
+{
+  "_resourceType": "trigger",
+  "id": "e7d8e4a9-b9f2-4e42-8541-f2038759d6f0",
+  "name": "",
+  "prefabId": "",
+  "x": 32,
+  "y": 34,
+  "symbol": "trigger_4",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Locked."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f6a32335-65a6-4e2d-9ed4-ea5a36f0df88"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 32
+        },
+        "y": {
+          "type": "number",
+          "value": 37
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "dceb8a67-d35a-4c63-b72c-7036ce56dee1"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

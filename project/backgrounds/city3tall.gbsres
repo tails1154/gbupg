@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f3fedc7e-a2cb-4f0c-972b-5ccedf7aa211",
+  "name": "city3TALL",
+  "symbol": "bg_city3tall",
+  "width": 126,
+  "height": 126,
+  "imageWidth": 1008,
+  "imageHeight": 1008,
+  "filename": "city3TALL.png",
+  "tileColors": "003560+0112+006c+0112+006c+0112+006c+0112+006c+0112+006c+0112+006c+0112+006c+0112+006c+0112+006c+0112+006c+0112+006c+0112+0046+072+0024+018+072+018+0046+072+0024+018+072+018+0022c+"
+}

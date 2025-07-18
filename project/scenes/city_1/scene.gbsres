@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "4e6c526f-d487-4e9e-abfe-5e257d4dc8b2",
+  "_index": 3,
+  "name": "city 1",
+  "backgroundId": "ce4e1678-fb46-491a-b53b-27d1d1a6c810",
+  "tilesetId": "",
+  "width": 40,
+  "height": 40,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0020+0f2+002+0f2+0022+0f2+002+0f2+0022+0f2+002+0f2+0022+0f2+002+0f2+0022+0f2+002+0f2+0022+0f2+002+0f2+002+0f22+002+0f26+002+0f4+001a0+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0f4+002+0f4+001e+0f4+002+0f4+007a+0fc+001c+0fe+006+0f2+0012+0fe+006+0f2+0012+0fe+006+0f2+0012+0fe+006+0f2+0012+0fe+006+0f2+0012+0f4+002+0f8+006+0f2+0012+0f4+002+0f8+006+0f2+001e+0f2+006+0f2+001e+0f2+006+0f2+001e+0f2+006+0f2+001e+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 905.5834709009916,
+  "y": 569.3968472079322,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

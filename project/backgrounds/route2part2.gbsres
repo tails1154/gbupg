@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f245fd49-8750-4aa7-b347-e5d3f8cb4bdc",
+  "name": "route2part2",
+  "symbol": "bg_route2part2",
+  "width": 64,
+  "height": 20,
+  "imageWidth": 512,
+  "imageHeight": 160,
+  "filename": "route2part2.png",
+  "tileColors": "073a+046+073a+046+073a+046+073a+046+073a+046+073a+04e+0738+048+0738+048+0738+048+0738+048+0732+04e+0732+04e+0732+04e+0732+04c+062+074+062+072c+04c+062+074+062+072c+0422+07c+04c+076+0422+07c+04c+076+0422+07c+04c+076+0422+07c+04c+076+046+"
+}

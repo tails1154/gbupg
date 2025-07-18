@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "a1666611-6227-4151-916f-93bc0514df67",
+  "_index": 10,
+  "name": "city 2",
+  "backgroundId": "f3fedc7e-a2cb-4f0c-972b-5ccedf7aa211",
+  "tilesetId": "",
+  "width": 126,
+  "height": 126,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "003720+0f22+005c+0f22+005c+0f22+005c+0f22+0062+0f14+006a+0f14+0025c+0f52+002c+0f52+002c+0f52+002c+0f52+002c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 2922.1355688126387,
+  "y": 515.4435174301719,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

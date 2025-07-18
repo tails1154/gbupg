@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "7da3a006-6940-46ee-8cd0-c72dabbf45a0",
+  "_index": 5,
+  "name": "house 1 room 2",
+  "backgroundId": "ba5bf883-b441-4d55-954b-b4e7b721f465",
+  "tilesetId": "",
+  "width": 20,
+  "height": 20,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2a+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0fa+002+0f12+002+0fa+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 328,
+  "y": 656,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

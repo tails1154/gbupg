@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "3811f897-0ed1-4325-bd03-e4df6e7583d5",
+  "name": "intro",
+  "symbol": "song_intro",
+  "filename": "intro.uge",
+  "settings": {},
+  "type": "uge"
+}

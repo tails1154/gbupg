@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "cd253386-f901-4ada-9b82-1df22bcd1092",
+  "name": "house1",
+  "symbol": "bg_house1",
+  "width": 20,
+  "height": 20,
+  "imageWidth": 160,
+  "imageHeight": 160,
+  "filename": "house1.png",
+  "tileColors": "062a+002+01a+068+002+01a+0612+012+0612+012+06a+016+062+012+06a+016+062+012+06a+012+066+012+06a+012+066+012+06a+012+062+016+06a+012+062+016+06a+016+06e+016+0612+012+0612+012+0612+012+0612+012+0612+002+0612+002+06a+",
+  "autoColor": false
+}

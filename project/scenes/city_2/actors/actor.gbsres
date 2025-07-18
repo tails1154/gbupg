@@ -1,0 +1,135 @@
+{
+  "_resourceType": "actor",
+  "id": "46933c77-50da-4417-addd-c17e7e32c28b",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_22",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "9504908d-df63-4c99-9403-f6e6469e3710"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "0cb27b2d-7a15-46f9-91f7-5b77626f5046"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "46933c77-50da-4417-addd-c17e7e32c28b",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+        "__comment": true
+      },
+      "id": "d1506134-6178-41f2-9abf-f665b6f94aca"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 36
+        },
+        "y": {
+          "type": "number",
+          "value": 121
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__comment": true
+      },
+      "id": "b6df4887-4ead-439b-aa4b-3f10621cc8e6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hey! I haven't\nseen you around ",
+          "here! Let me show\nyou how to naviga-",
+          "te platformer\ntowns.",
+          "green houses you\npress up to enter",
+          "white houses you\nenter upon",
+          "touching the door.",
+          "That's all you\nneed to know!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__comment": true
+      },
+      "id": "c1e9d6ac-69b5-42dc-919d-b3ceb6c39854"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 64
+        },
+        "y": {
+          "type": "number",
+          "value": 121
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__comment": true
+      },
+      "id": "ee7ef63b-8717-42b9-ae00-a5382e40d811"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__comment": true
+      },
+      "id": "37668cdc-8736-44d9-a1a2-d128f1aa02b1"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$",
+        "__comment": true
+      },
+      "id": "7da29278-460d-4240-b085-a143d123844c"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 37,
+  "y": 121,
+  "_index": 0
+}

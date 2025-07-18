@@ -1,0 +1,60 @@
+{
+  "_resourceType": "actor",
+  "id": "5e951db6-1516-4e07-885b-9f75e66a8a39",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_9",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Want a break from\nthe ads? If you ",
+          "tap now to watch a\nshort video you'll",
+          "get 30 minutes of\nad free music! ",
+          "Yes, really! If \nyou tap now you'll",
+          " get 30 minutes of\nad free music! So",
+          "what are you\nwaiting for? ",
+          "okay im not saying\nthe rest of the",
+          "script."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "084fc54e-1b20-4139-9d18-3f48809b87e6"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 56,
+  "y": 48,
+  "_index": 1
+}
