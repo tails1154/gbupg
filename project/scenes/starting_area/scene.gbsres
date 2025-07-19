@@ -15,8 +15,15 @@
   "symbol": "scene_3",
   "x": 828.3367062336544,
   "y": 123.32398081908323,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "f9548854-44ad-45b6-af66-0135a5d3b10b"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }

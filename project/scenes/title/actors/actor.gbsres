@@ -128,6 +128,11 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "6bf5abb6-1824-4573-acc3-afb8caee0079"
+          },
+          {
             "command": "EVENT_IF",
             "args": {
               "condition": {

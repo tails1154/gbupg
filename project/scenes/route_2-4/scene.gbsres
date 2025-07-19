@@ -17,12 +17,16 @@
   "y": 318.5000319846939,
   "script": [
     {
-      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "11815aca-4844-4095-98ca-5e31cbaf1315"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "actorId": "$self$",
-        "speed": 1
+        "musicId": "315dca55-0a52-4cac-ae73-9105707668fd"
       },
-      "id": "17fb317c-4f74-4e78-a8de-58d90a1cb843"
+      "id": "21ee655a-5f24-4e1a-8cb4-2f6fb9a22acb"
     },
     {
       "command": "EVENT_SAVE_DATA",

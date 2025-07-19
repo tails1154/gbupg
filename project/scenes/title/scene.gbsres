@@ -24,6 +24,13 @@
       "id": "7af560a3-135b-4467-a4c0-d240b9a41bde"
     },
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "6819c412-a5db-4079-92bb-d806726cd221"
+      },
+      "id": "dc61d3ea-73f1-4569-a166-3b9cd96f7ca6"
+    },
+    {
       "command": "EVENT_TEXT_DRAW",
       "args": {
         "text": " Untitled \nPlatformer\n   Game   ",

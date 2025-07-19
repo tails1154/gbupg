@@ -8,5 +8,6 @@
   "imageWidth": 1024,
   "imageHeight": 160,
   "filename": "route2part3.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
