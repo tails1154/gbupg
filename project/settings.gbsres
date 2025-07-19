@@ -35,11 +35,11 @@
   "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
   "defaultCharacterEncoding": "",
   "defaultPlayerSprites": {
-    "TOPDOWN": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-    "PLATFORM": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "TOPDOWN": "f8b718c8-9e72-46d0-bf1b-acf573df7d5b",
+    "PLATFORM": "c8735a9a-e09b-42a0-98f4-8f73dbb721d8",
     "ADVENTURE": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
     "SHMUP": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-    "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "POINTNCLICK": "daf95270-e30d-423b-9ee7-990ae29f57f6",
     "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
   },
   "musicDriver": "huge",
