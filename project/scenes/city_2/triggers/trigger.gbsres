@@ -35,6 +35,21 @@
             "id": "b1b6c826-877c-497c-9556-2e806f48d0e8"
           },
           {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "46933c77-50da-4417-addd-c17e7e32c28b",
+              "x": {
+                "type": "number",
+                "value": 37
+              },
+              "y": {
+                "type": "number",
+                "value": 121
+              }
+            },
+            "id": "19552459-2ca6-4fc8-9855-6b98c20cb5f2"
+          },
+          {
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
               "actorId": "46933c77-50da-4417-addd-c17e7e32c28b",
