@@ -20,7 +20,7 @@
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "type": "crash",
+        "type": "2851bad4-fb0c-4a5f-aae7-2f3760b129cb",
         "priority": "medium",
         "pitch": 4,
         "frequency": 200,

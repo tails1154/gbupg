@@ -17,12 +17,25 @@
   "symbol": "actor_3",
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "108c9a9b-567e-4923-81a3-df65137aa701",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "03b015de-98fc-4996-9875-496a9875fb97"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
           "The path to the\nnext city opened!"
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -34,7 +47,7 @@
         "showFrame": "true",
         "speedIn": -1,
         "speedOut": -1,
-        "closeWhen": "key",
+        "closeWhen": "text",
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
