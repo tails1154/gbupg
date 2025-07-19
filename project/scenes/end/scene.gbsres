@@ -41,7 +41,7 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "Press a to return\nto menu",
+        "text": "Press A to return\nto menu\nPress B for credits",
         "x": 1,
         "y": 10,
         "location": "background"
@@ -79,6 +79,38 @@
         ]
       },
       "id": "27a0fceb-71d9-4fd0-80ed-ca33ef20206b"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "2e812072-4e37-4369-858f-3831dbc21b77",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "6151fb25-15e0-46a2-966f-77b8330535ee"
+          }
+        ]
+      },
+      "id": "9b98e4ec-b719-4407-b4b8-a4f1bbafd278"
     }
   ],
   "playerHit1Script": [],
