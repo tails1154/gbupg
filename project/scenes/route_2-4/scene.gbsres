@@ -27,44 +27,6 @@
         "musicId": "315dca55-0a52-4cac-ae73-9105707668fd"
       },
       "id": "21ee655a-5f24-4e1a-8cb4-2f6fb9a22acb"
-    },
-    {
-      "command": "EVENT_SAVE_DATA",
-      "args": {
-        "saveSlot": 0,
-        "__scriptTabs": "save"
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Game Saved!"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "2c820a5a-cf90-4ee0-a392-42353ff68f5a"
-          }
-        ],
-        "load": []
-      },
-      "id": "2fac300a-6bc4-4108-a4d0-98b33690d539"
     }
   ],
   "playerHit1Script": [],

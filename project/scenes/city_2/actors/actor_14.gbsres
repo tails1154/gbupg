@@ -20,7 +20,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Exit ->"
+          "TCity -> WCity"
         ],
         "__section": "text",
         "avatarId": "b3fbd099-fb7f-425f-9438-ffd09c67a8b6",

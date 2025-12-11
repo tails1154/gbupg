@@ -96,7 +96,7 @@
                           "text": [
                             "Game Saved!"
                           ],
-                          "__section": "text",
+                          "__section": "behavior",
                           "avatarId": "",
                           "minHeight": 4,
                           "maxHeight": 7,
