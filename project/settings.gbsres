@@ -7,7 +7,7 @@
   "startAnimSpeed": 15,
   "startDirection": "down",
   "showCollisionExtraTiles": false,
-  "sgbEnabled": false,
+  "sgbEnabled": true,
   "customHead": "",
   "defaultBackgroundPaletteIds": [
     "default-bg-1",
